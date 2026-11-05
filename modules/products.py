@@ -1,5 +1,4 @@
 class Product:
-    
     def __init__(self , id , name , brand , price , stock):
         self.__id = id
         self.name = name
@@ -87,7 +86,6 @@ class Product:
 
     
 class Phone(Product):
-    
     def __init__(self, id, name, brand, price , stock , storage, batteryCapacity):
         super().__init__(id, name, brand, price , stock)
         self.storage = storage #storage in GB (Gigabyte)
@@ -120,9 +118,9 @@ class Laptop(Product):
     def __init__(self, id, name, brand, price , stock, storage, ram , cpu):
         super().__init__(id, name, brand, price , stock)
         self.storage = storage
-        self.cpu = cpu
         self.ram = ram
-
+        self.cpu = cpu
+        
         if not isinstance(storage , int) or storage <=0:
             raise ValueError("invalid storage format")
 

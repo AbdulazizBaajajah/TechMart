@@ -1,0 +1,5 @@
+Laptop|P001|ASUS Laptop|ASUS|6000|5|1000|16|Intel i7
+Phone|P002|iPhone 16|Apple|3500|10|256|3561
+Accessory|P003|Wireless Mouse|Logitech|150|20|Mouse|12
+Accessory|P004|wired Mouse|attack shark|300.3|10|Mouse|6
+Laptop|P005|Acer123|Acer|3000|5|1024|16|Intel i9
